@@ -20,4 +20,4 @@ jobs:
       env:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}  
       run: 
-        npx surge .\src polite-sbaete.surge.sh --token $SURGE_TOKEN
+        npx surge ./src polite-sbaete.surge.sh --token $SURGE_TOKEN
